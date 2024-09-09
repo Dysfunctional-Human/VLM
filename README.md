@@ -11,6 +11,17 @@ The application uses the `microsoft/Phi-3-vision-128k-instruct` model to process
 - **Homepage**: A welcome page with a form to upload screenshots and provide optional context.
 - **Test Case Generation**: The model processes the uploaded image and generates a detailed test case based on the provided context and the content of the image.
 
+## Sample Input
+### I will be using Red Bus Website as an example to show the working of the model
+
+![RedBus](https://github.com/user-attachments/assets/a789180f-c9c7-455a-a9bd-3ebe98900f7c)
+
+## Sample Output
+### As we can see we get the generated testing steps
+
+![image](https://github.com/user-attachments/assets/0f2da280-b350-4df2-ad0f-82c1014853ab)
+
+
 ## Requirements
 
 To run the application yourself, kindly clone the repository and install requirements using:
