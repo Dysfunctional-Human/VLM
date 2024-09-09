@@ -15,11 +15,6 @@ The application uses the `microsoft/Phi-3-vision-128k-instruct` model to process
 
 To run the application yourself, kindly clone the repository and install requirements using:
 
-```bash
-git clone <repository_url>
-cd <repository_directory>
-pip install -r requirements.txt
-
 ## Running the Application
 
 1. Ensure you have [Python](https://www.python.org/) installed.
@@ -27,8 +22,8 @@ pip install -r requirements.txt
 2. Clone the repository and navigate to the project directory:
 
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone <https://github.com/Dysfunctional-Human/VLM>
+    cd <VLM>
     ```
 
 3. Install the required packages from `requirements.txt`:
