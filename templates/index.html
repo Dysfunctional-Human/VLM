@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+    <script type="text/javascript" src="{{url_for('static', filename='script/script.js')}}"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Case Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Testing Instructions</h1>
+        <form id="test-case-form">
+            <label for="context">Optional Context:</label>
+            <textarea id="context" name="context" rows="4" placeholder="Enter any optional context..."></textarea>
+
+            <label for="screenshots">Upload Screenshots:</label>
+            <input type="file" id="screenshots" name="screenshots" accept="image/*">
+
+            <button type="submit">Describe Testing Instructions</button>
+        </form>
+        <div id="output">{{ test_case }}</div>
+    </div>
+</body>
+</html>

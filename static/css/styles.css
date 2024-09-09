@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Use a modern, clean font */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 450px; /* Slightly wider container */
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-align: left;
+}
+
+/* Textarea and file input styling */
+textarea, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff; /* Updated to a more vibrant blue */
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Output styling */
+#output {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Output text styling */
+#output strong {
+    color: #333;
+}
+
+#output ul {
+    padding-left: 20px; /* Indentation for lists */
+    list-style-type: disc;
+}
+
+#output ul li {
+    margin-bottom: 10px; /* Spacing between list items */
+}
